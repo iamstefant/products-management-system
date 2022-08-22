@@ -1,0 +1,15 @@
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\bin\Release\net6.0\ProductsManagementBusenssLogic.deps.json
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\bin\Release\net6.0\ProductsManagementBusenssLogic.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\bin\Release\net6.0\ProductsManagementBusenssLogic.pdb
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\bin\Release\net6.0\ProductManagement.DataAccess.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\bin\Release\net6.0\ProductManagement.DataAccess.pdb
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.csproj.AssemblyReference.cache
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.AssemblyInfoInputs.cache
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.AssemblyInfo.cs
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.csproj.CoreCompileInputs.cache
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.csproj.CopyComplete
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\refint\ProductsManagementBusenssLogic.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ProductsManagementBusenssLogic.pdb
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagementBusenssLogicLayer\obj\Release\net6.0\ref\ProductsManagementBusenssLogic.dll
