@@ -79,7 +79,7 @@ namespace ProductsManagement.Tests
             var actionResult = service.SearchOracleProductsByName("ja");
 
             //assert
-            Assert.Equal(searchedProduct.ToString(), actionResult.ToString());
+            Assert.Equal(searchedProduct.Count(), actionResult.OracleProduct.Count());
         }
 
         [Fact]

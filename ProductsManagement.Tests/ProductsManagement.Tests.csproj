@@ -11,6 +11,7 @@
   <ItemGroup>
     <PackageReference Include="FakeItEasy" Version="7.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="6.0.8" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
     <PackageReference Include="Moq" Version="4.18.2" />
     <PackageReference Include="NPOI" Version="2.5.6" />
@@ -27,6 +28,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProductsManagementBusenssLogicLayer\ProductsManagementBusenssLogic.csproj" />
+    <ProjectReference Include="..\ProductsManagement\ProductsManagement.WebApi.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using ProductsManagement.WebApi;
 using ProductsManagementBusenssLogic.Services;
 using ProductsManagementBusenssLogic.ViewModels;
 
@@ -11,14 +13,17 @@ namespace ProductsManagement.Controllers
     public class ComputerController : ControllerBase
     {
         private readonly IComputerService _computerService;
+        private readonly JwtAuthenticationManager _jwtAuthenticationManager;
 
-        public ComputerController (IComputerService computersService)
+        public ComputerController (IComputerService computersService, JwtAuthenticationManager jwtAuthenticationManager)
         {
             _computerService = computersService;
+            _jwtAuthenticationManager = jwtAuthenticationManager;
         }
 
-               
+                       
         [HttpGet]
+        //[Authorize]
         public async Task<IActionResult> GetAllComputers()
         {
             var InstalledComputers = _computerService.GetComputers();
@@ -39,9 +44,10 @@ namespace ProductsManagement.Controllers
 
         [Route("/GetByName")]
         [HttpGet]
-        public IActionResult SearchComputersByComputerName(string? name)
+        public IActionResult SearchComputersByComputerName(string? computerName, string? ownerName, string? cpu, string? ram, string? gpu, string? hdd)
         {
-            var foundComputers =  _computerService.SearchComputersByComputerName(name ?? String.Empty);
+            var foundComputers =  _computerService.SearchComputersByComputerName(computerName ?? String.Empty, ownerName ?? String.Empty, cpu ?? String.Empty,
+                ram ?? String.Empty, gpu ?? String.Empty, hdd ?? String.Empty);
 
             if (foundComputers == null)
                 return BadRequest();
@@ -51,9 +57,10 @@ namespace ProductsManagement.Controllers
 
         [Route("/OwnerName")]
         [HttpGet]
-        public IActionResult SearchComputersByOwnerName(string? name)
+        public IActionResult SearchComputersByOwnerName(string? computerName, string? ownerName, string? cpu, string? ram, string? gpu, string? hdd)
         {
-            var foundComputers = _computerService.SearchComputersByOwnerName(name ?? String.Empty);
+            var foundComputers = _computerService.SearchComputersByOwnerName(computerName ?? String.Empty, ownerName ?? String.Empty, cpu ?? String.Empty,
+                ram ?? String.Empty, gpu ?? String.Empty, hdd ?? String.Empty);
 
             if (foundComputers == null)
                 return BadRequest();
@@ -73,5 +80,24 @@ namespace ProductsManagement.Controllers
                 return Ok(computerDetails);
         }
 
+        [AllowAnonymous]
+        [HttpPost("Authorize")]
+        public IActionResult AuthUser([FromBody] User usr)
+        {
+            var token = _jwtAuthenticationManager.Authenticate(usr.username, usr.password);
+
+            if(token == null)
+            {
+                return Unauthorized();
+            }
+
+            return Ok(token); 
+        }
+    }
+
+    public class User
+    {
+        public string username { get; set; }
+        public string password { get; set; }    
     }
 }

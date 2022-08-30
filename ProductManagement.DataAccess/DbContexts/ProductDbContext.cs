@@ -35,6 +35,7 @@ namespace ProductManagement.DataAccess.DbContexts
                 .WithMany(ct => ct.ComputerInstallation)
                 .HasForeignKey(ctk => ctk.ComputerId);
 
+
         }
 
         public DbSet<Computer> Computer { get; set; } = null!;

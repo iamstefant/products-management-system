@@ -73,3 +73,10 @@ C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bi
 C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\appsettings.json
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\NPOI.OOXML.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\NPOI.OpenXml4Net.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\NPOI.OpenXmlFormats.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\NPOI.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\stefan.trajanoski\source\repos\ProductsManagement\ProductsManagement\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll

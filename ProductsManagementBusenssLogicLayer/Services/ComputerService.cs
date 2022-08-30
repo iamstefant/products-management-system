@@ -70,9 +70,9 @@ namespace ProductsManagementBusenssLogic.ComputersBusinessLogic
             
         }
 
-        public GetComputerViewModel SearchComputersByComputerName(string name)
+        public GetComputerViewModel SearchComputersByComputerName(string computerName, string ownerName, string cpu, string ram, string gpu, string hdd)
         {
-            var searchedComputers = _computerRepository.SearchComputersByComputerName(name);
+            var searchedComputers = _computerRepository.SearchComputersByComputerName(computerName, ownerName, cpu, ram, gpu, hdd);
             
             var computer = new GetComputerViewModel();
                      
@@ -99,9 +99,9 @@ namespace ProductsManagementBusenssLogic.ComputersBusinessLogic
             return computer;
 
         }
-        public GetComputerViewModel SearchComputersByOwnerName(string name)
+        public GetComputerViewModel SearchComputersByOwnerName(string computerName, string ownerName, string cpu, string ram, string gpu, string hdd)
         {
-            var searchedComputers = _computerRepository.SearchComputersByOwnerName(name);
+            var searchedComputers = _computerRepository.SearchComputersByOwnerName(computerName, ownerName, cpu, ram, gpu, hdd);
             
             var computer = new GetComputerViewModel();
 

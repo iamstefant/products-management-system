@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2vJ8TKoFPJCW0e9a4ATcwXEbgBp4N+HtftxEaitp6IxVu7pPTbv7vraXr6wZ1YnM5giGcrDEm+RKaxl/klw/8A==",
+  "dgSpecHash": "Ix88ISWJHTjPkooHNLpfDnQ9ZNHm4eIzPlK0+fF4Xe6KfoVJQXUhMZSGwC6IzQGqfkI7yxAQZkwMJXUPXRy6Bw==",
   "success": true,
   "projectFilePath": "C:\\Users\\stefan.trajanoski\\source\\repos\\ProductsManagement\\ProductManagement.DataAccess\\ProductManagement.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -39,6 +39,9 @@
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\nlog\\5.0.1\\nlog.5.0.1.nupkg.sha512",
+    "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\npoi\\2.5.6\\npoi.2.5.6.nupkg.sha512",
+    "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
+    "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\sharpziplib\\1.3.3\\sharpziplib.1.3.3.nupkg.sha512",
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\stefan.trajanoski\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

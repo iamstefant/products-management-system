@@ -12,8 +12,8 @@ namespace ProductsManagementBusenssLogic.Services
     {
         GetComputerViewModel GetComputers();
         GetComputerByIdViewModel GetComputerById(int id);
-        GetComputerViewModel SearchComputersByComputerName(string name);
-        GetComputerViewModel SearchComputersByOwnerName(string name);
+        GetComputerViewModel SearchComputersByComputerName(string computerName, string ownerName, string cpu, string ram, string gpu, string hdd);
+        GetComputerViewModel SearchComputersByOwnerName(string computerName, string ownerName, string cpu, string ram, string gpu, string hdd);
         // ComputerDetailsViewModel GetComputerDetails(int id);
         ComputerDetailsViewModel GetComputerDetails(int id);
     }
